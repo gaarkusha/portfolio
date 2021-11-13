@@ -1,0 +1,11 @@
+.navWrapper {
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navLink {
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}

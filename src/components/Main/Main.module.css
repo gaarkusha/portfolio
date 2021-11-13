@@ -1,0 +1,24 @@
+.mainWrapper {
+    height: 100vh;
+}
+
+.text {
+    width: 300px;
+    background-color: cornflowerblue;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: cornflowerblue;
+}
+
+.containerInfo {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

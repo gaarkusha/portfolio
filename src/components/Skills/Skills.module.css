@@ -1,0 +1,27 @@
+.skillsWrapper {
+    height: 100vh;
+}
+
+.containerInfo {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.skills {
+    width: 100%;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.title {
+    color: #ffffff;
+}
+

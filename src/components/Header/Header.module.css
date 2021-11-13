@@ -1,0 +1,7 @@
+.headerWrapper {
+    height: 80px;
+    background-color: rgba(19, 22, 23, 0.6);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
