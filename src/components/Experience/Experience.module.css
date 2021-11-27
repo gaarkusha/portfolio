@@ -1,0 +1,94 @@
+.educationWrapper {
+    height: 110vh;
+}
+
+.containerInfo {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-family: 'Poppins',sans-serif;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.title span {
+    color: #ffb400;
+    padding-left: 7px;
+}
+
+.contentWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experienceContent {
+    background-color: #ffb400;
+    width: 50%;
+}
+
+.educationContent {
+    width: 50%;
+}
+
+.contentBlock {
+    width: 400px;
+    margin-top: 30px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.contentBlock::before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    width: 1px;
+    height: 100px;
+    background: #252525;
+    margin-top: 55px;
+}
+
+.contentBlock span {
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 20px;
+    font-weight: 600;
+    background-color: #252525;
+    opacity: .8;
+    font-family: "Open Sans",sans-serif;
+}
+
+.contentTitleList {
+    color: #ffb400;
+    font-size: 18px;
+    margin: 7px 0 10px;
+    font-family: "Poppins",sans-serif;
+    text-transform: uppercase;
+}
+
+.content {
+    color: #eee;
+    font-size: 18px;
+    font-family: "Open Sans",sans-serif;
+    margin: 0;
+}
+
+.separation {
+    width: 50%;
+    margin-top: 10px;
+    height: 1px;
+    color: #252525;
+    background-color: currentColor;
+    border: 0;
+}

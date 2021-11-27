@@ -1,11 +1,18 @@
 .navWrapper {
-    width: 300px;
+    width: 450px;
     display: flex;
     justify-content: space-evenly;
+    margin-left: 20px;
 }
 
 .navLink {
-    font-weight: bold;
+    font-weight: 700;
     text-decoration: none;
     color: #fff;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+}
+
+.navLink:hover {
+    color: #ffc107;
 }

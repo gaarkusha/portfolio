@@ -6,12 +6,16 @@ export const Skills = () => {
     return (
         <div className={s.skillsWrapper}>
             <div className={s.containerInfo}>
-                <h2 className={s.title}>Skills</h2>
+                <div className={s.title}>
+                    <h2>SKILLS</h2>
+                </div>
                 <div className={s.skills}>
-                    <Skill title={"JS/TS"} description={'Text about JS/TS'}/>
-                    <Skill title={"React"} description={'Text about React'}/>
-                    <Skill title={"Redux"} description={'Text about Redux'}/>
-                    <Skill title={"HTML/CSS"} description={'Text about HTML/CSS'}/>
+                    <Skill title={"JAVASCRIPT"} percent={'70%'}/>
+                    <Skill title={"React"} percent={'80%'}/>
+                    <Skill title={"Redux"} percent={'75%'}/>
+                    <Skill title={"HTML"} percent={'50%'}/>
+                    <Skill title={"CSS"} percent={'60%'}/>
+                    <Skill title={"TYPESCRIPT"} percent={'70%'}/>
                 </div>
             </div>
         </div>

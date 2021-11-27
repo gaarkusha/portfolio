@@ -1,0 +1,143 @@
+.footerWrapper {
+    background-color: rgba(21, 21, 21, 0.8);
+}
+
+.containerInfo {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+
+.mySocialNetwork {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footerTitle {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+.socialNetworkList {
+    padding-inline-start: 0px;
+    display: flex;
+}
+
+.socialNetworkList li {
+    display: inline-block;
+}
+
+.socialNetworkList li .github {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 42px;
+    text-align: center;
+    color: #fff;
+    transition: .3s;
+    font-size: 17px;
+    margin: 0 20px;
+    background: #2b2a2a;
+    border-radius: 50%;
+    text-decoration: underline;
+    background-image: url("../../assets/images/github.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.socialNetworkList li .vk {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 42px;
+    text-align: center;
+    color: #fff;
+    transition: .3s;
+    font-size: 17px;
+    margin: 0 20px;
+    background: #2b2a2a;
+    border-radius: 50%;
+    text-decoration: underline;
+    background-image: url("../../assets/images/vk.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.socialNetworkList li .instagram {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 42px;
+    text-align: center;
+    color: #fff;
+    transition: .3s;
+    font-size: 17px;
+    margin: 0 20px;
+    background: #2b2a2a;
+    border-radius: 50%;
+    text-decoration: underline;
+    background-image: url("../../assets/images/instagram.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.socialNetworkList li .telegram {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 42px;
+    text-align: center;
+    color: #fff;
+    transition: .3s;
+    font-size: 17px;
+    margin: 0 20px;
+    background: #2b2a2a;
+    border-radius: 50%;
+    text-decoration: underline;
+    background-image: url("../../assets/images/telegram.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.socialNetworkList li .linkedin {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 42px;
+    text-align: center;
+    color: #fff;
+    transition: .3s;
+    font-size: 17px;
+    margin: 0 20px;
+    background: #2b2a2a;
+    border-radius: 50%;
+    text-decoration: underline;
+    background-image: url("../../assets/images/linkedin.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.textReserved {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
