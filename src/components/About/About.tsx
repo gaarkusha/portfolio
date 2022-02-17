@@ -22,14 +22,14 @@ export const About = () => {
                                 <p>First Name: Vladislav</p>
                                 <p>Age: 20 Years</p>
                                 <p>Phone: +375336525601</p>
-                                <p>Telegram: @garkusha</p>
+                                <p>Telegram: @gaarkushaa</p>
                                 <p>Education: BSUIR</p>
                             </div>
                             <div className={s.textInfo}>
                                 <p>Last Name: Garkusha</p>
                                 <p>Nationality: Belarusian</p>
                                 <p>Address: Minsk</p>
-                                <p>Email: garkusha@gmail.com</p>
+                                <p>Email: gaarkusha@gmail.com</p>
                                 <p>Languages: English, Russian</p>
                             </div>
                         </div>

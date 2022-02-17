@@ -4,6 +4,7 @@ import s from './Project.module.css';
 type ProjectProps = {
     title: string
     description: string
+    link: string
 }
 
 export const Project = (props: ProjectProps) => {
@@ -13,7 +14,7 @@ export const Project = (props: ProjectProps) => {
                 <p>SOON</p>
             </div>
             <div className={s.btnWrapper}>
-                <a href='#!' className={s.btnMain}>watch</a>
+                <a target='_blank' href={`${props.link}`} className={s.btnMain}>watch</a>
             </div>
             <div className={s.contentList}>
                 <h4>{props.title}</h4>

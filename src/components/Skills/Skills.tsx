@@ -10,12 +10,12 @@ export const Skills = () => {
                     <h2>SKILLS</h2>
                 </div>
                 <div className={s.skills}>
-                    <Skill title={"JAVASCRIPT"} percent={'70%'}/>
-                    <Skill title={"React"} percent={'80%'}/>
+                    <Skill title={"JAVASCRIPT"} percent={'65%'}/>
+                    <Skill title={"React"} percent={'75%'}/>
                     <Skill title={"Redux"} percent={'75%'}/>
-                    <Skill title={"HTML"} percent={'50%'}/>
-                    <Skill title={"CSS"} percent={'60%'}/>
-                    <Skill title={"TYPESCRIPT"} percent={'70%'}/>
+                    <Skill title={"HTML"} percent={'65%'}/>
+                    <Skill title={"CSS"} percent={'75%'}/>
+                    <Skill title={"TYPESCRIPT"} percent={'85%'}/>
                 </div>
             </div>
         </div>
