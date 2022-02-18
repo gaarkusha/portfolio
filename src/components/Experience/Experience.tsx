@@ -23,7 +23,8 @@ export const Experience = () => {
                                 studying the javascript. later I started training in an IT incubator.
                                 On the course I study React/Redux/Typescript.
                                 Such technologies as React using hooks / Redux / React-redux /
-                                React-router-dom / Redux-thunk / Axios / Unit Tests / Material-ui libraries were studied in educational projects.
+                                React-router-dom / Redux-thunk / Axios / Unit Tests / Storybook /
+                                Formik / Material-ui libraries were studied in educational projects.
                             </p>
                             <hr className={s.separation}/>
                         </div>

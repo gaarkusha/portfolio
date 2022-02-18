@@ -5,14 +5,13 @@ type ProjectProps = {
     title: string
     description: string
     link: string
+    images: string
 }
 
 export const Project = (props: ProjectProps) => {
     return (
         <div className={s.projectWrapper}>
-            <div className={s.picture}>
-                <p>SOON</p>
-            </div>
+            <div className={s.picture} style={{backgroundImage: props.images}}></div>
             <div className={s.btnWrapper}>
                 <a target='_blank' href={`${props.link}`} className={s.btnMain}>watch</a>
             </div>

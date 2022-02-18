@@ -27,7 +27,6 @@ export const Footer = () => {
                         </li>
                     </ul>
                 </div>
-                <h4 className={s.textReserved}>© 2021 All rights reserved</h4>
             </div>
         </div>
     );

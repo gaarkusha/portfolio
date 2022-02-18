@@ -5,9 +5,7 @@ export const Main = () => {
     return (
         <div className={s.mainWrapper} id='main'>
             <div className={s.containerInfo}>
-                <div className={s.photo}>
-                    photo
-                </div>
+                <div className={s.photo}></div>
                 <div className={s.text}>
                     <h1 className={s.textTitle}>
                         — I'M VLADISLAV GARKUSHA.
