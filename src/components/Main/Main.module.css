@@ -1,6 +1,9 @@
 .mainWrapper {
-    height: 100vh;
+    height: 100%;
+    padding-top: 100px;
 }
+
+
 
 .containerInfo {
     padding-top: 30px;
